@@ -17,6 +17,137 @@ header{
 }
 
 body{
-    background-color: rgb(219, 214, 214);
+    background-color: #f6f8f9;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.buttons{
+    margin-left: 60px;
+}
+
+
+.add-task{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    background-color: #47adf1;
+    border-radius: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+.add-section{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid #d1d5d9;
+    color: #d1d5d9;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+hr{
+   color: #f6f8f9;
+   border-width: 2px;
+   border-style: solid;
+}
+
+.list{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.new-task{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #494d55;
+    vertical-align: middle;
+}
+
+.downward-arrow{
+    color: #494d55;
+    vertical-align: middle;
+}
+
+.v-mark{
+    color: #91d4c4;
+    border: 1px solid #91d4c4;
+    padding: 1px;
+    border-radius: 40px;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.editorial{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    color: white;
+    background-color: #47adf1;
+    border-radius: 11px;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.today{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #494d55;
+    vertical-align: middle;
+}
+
+.q1-goals{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    color: white;
+    background-color: #9c72e4;
+    border-radius: 11px;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.x-mark{
+    color: #eb5851;
+    border: 1px solid #eb5851;
+    padding: 2px;
+    border-radius: 40px;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.recruiting{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    color: white;
+    background-color: #64c0a9;
+    border-radius: 11px;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.mobile{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    color: white;
+    background-color: #f29e33;
+    border-radius: 11px;
+    font-size: 9px;
+    margin-left: 5px;
 }
