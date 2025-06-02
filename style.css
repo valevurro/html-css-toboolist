@@ -32,6 +32,7 @@ main{
     max-width: 800px;
     margin: auto;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .buttons{
@@ -62,6 +63,7 @@ hr{
    color: #f6f8f9;
    border-width: 2px;
    border-style: solid;
+   border-radius: 5px;
 }
 
 .list{
@@ -150,4 +152,34 @@ hr{
     border-radius: 11px;
     font-size: 9px;
     margin-left: 5px;
+}
+
+.upcoming{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #494d55;
+    vertical-align: middle;
+}
+
+.website{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    color: white;
+    background-color: #d863a1;
+    border-radius: 11px;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.sales{
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid;
+    color: white;
+    background-color: #b0c926;
+    border-radius: 11px;
+    font-size: 9px;
+    margin-left: 5px; 
 }
